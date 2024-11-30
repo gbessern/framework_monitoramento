@@ -1,0 +1,35 @@
+{
+    "aberturas": ["group_ab", "group_xy"],
+
+    "variaveis": {
+        "numericas": ["idade", "score_ext_1", "score_ext_2", "score_final"],
+        "categoricas": ["renda"],
+        "binarias": ["relacionamento"]
+    },
+
+    "tabela_baselien": "baseline",
+    "prefix_tabela_prod": "prod_",
+
+    "variavel_resposta": "flag_1",
+
+    "scores": {
+        "score_ext_1": {
+            "escores_especiais": [
+                {
+                    "valor": -1,
+                    "significado": "score especial - óbito"
+                }
+            ],
+            "percentis_ppv": [5, 15, 25],
+            "percentis_dist": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+            "acumula_maiores": true
+        },
+
+        "score_final": {
+            "escores_especiais": [],
+            "percentis_ppv": [5, 15, 25],
+            "percentis_dist": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+            "acumula_maiores": true
+        }
+    }
+}
