@@ -1,0 +1,4 @@
+group_ab,group_xy,percentil,total_fraudes_baseline,total_fraudes_producao,total_fraudes_safra,percentual_fraudes_total_baseline,percentual_fraudes_total_producao,safra,score
+TODOS,TODOS,75,816,758,2940,27.755102040816325,25.78231292517007,202305,score_ext_1
+TODOS,TODOS,85,510,465,2940,17.346938775510203,15.816326530612246,202305,score_ext_1
+TODOS,TODOS,95,191,175,2940,6.496598639455782,5.952380952380952,202305,score_ext_1

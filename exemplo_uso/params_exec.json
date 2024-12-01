@@ -1,8 +1,10 @@
 {
     "periodo_monitoramento": {
         "data_inicio": 202304,
-        "data_fim": 202306
+        "data_fim": 202306,
+        "maturação": false,
+        "periodo_maturacao": 12
     },
     "incluir_baseline": true,
-    "maturação": 3
+    "overwrite_percentis": true
 }

@@ -6,9 +6,9 @@
         "categoricas": ["renda"],
         "binarias": ["relacionamento"]
     },
-
-    "tabela_baselien": "baseline",
-    "prefix_tabela_prod": "prod_",
+    "data_folder": "/content/drive/MyDrive/framework_monitoramento/exemplo_uso/dados/",
+    "data_prefix": "tbl",
+    "result_folder": "/content/drive/MyDrive/framework_monitoramento/exemplo_uso/results",
 
     "variavel_resposta": "flag_1",
 
